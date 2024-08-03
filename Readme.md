@@ -16,7 +16,7 @@ Welcome to this repository! This collection of resources and materials was creat
 ### Programming Environment
 
 * **VSCode**: Students should be comfortable using Visual Studio Code (VSCode).
-* **PlatformIO Extensions**: It is highly recommended that students install the PlatformIO extensions within VSCode and test it before the sessions starts to facilitate efficient and streamlined development.
+* **PlatformIO Extensions**: It is highly recommended that students install the PlatformIO extensions within VSCode and **test it** before the sessions starts to facilitate efficient and streamlined development.
 
 ## Sessions
 ------------
