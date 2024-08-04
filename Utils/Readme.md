@@ -1,6 +1,6 @@
 # All the installation guide and problems
 -----------------------------------------
-## Installation
+## Installation and Problems
 
 <details>
 <summary>VSCode</summary>
@@ -91,15 +91,45 @@
 ### Problems
 
 * **I've download and installed python but it says that there is no python installed what should i do?**
-    + if your on windows add the pyhton path to path environment variables (for help visit this [link](https://www.geeksforgeeks.org/how-to-add-python-to-windows-path/))
+    - if your on windows add the pyhton path to path environment variables (for help visit this [link](https://www.geeksforgeeks.org/how-to-add-python-to-windows-path/))
 
-    + if you're using linux just install 
+    - if you're using linux just install 
     python3-venv with this command :
     
     ```sh
     sudo apt install python3-venv
     ```
-    + then just restart the vscode and install the platformIO.
+    - then just restart the vscode and install the platformIO.
+
+* **I can't upload my project to my board**
+    <details>
+    <summary>make sure that your board is connected properly and your uploading to the correct port</summary>
+
+    TODO
+
+    </details>
+
+
+    <details>
+    <summary>make sure that you have the correct drivers on your computer</summary>
+
+    TODO
+
+    </details>
+
+    - if your on linux and you get an error like this.
+    ```sh
+    A fatal error occurred: Could not open /path/to/port, the port doesn't exist
+    ```
+    - it means that you haven't give the permission to read or write on this port 
+    
+    - write this in your terminal, and try again.
+
+    ```sh
+    sudo chmod 777 /path/to/port
+    ```
+
+
 
 
 </details>
