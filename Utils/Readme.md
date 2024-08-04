@@ -60,7 +60,7 @@
 </details>
 
 <details>
-<summary>Work</summary>
+<summary>Compile and Upload your code</summary>
 
 * when you install the platformIO it will add some icons on the **status bar** of vsCode (the bottom bar) that looks like these:
 
@@ -83,6 +83,7 @@
 8. **Folder Icon:** If you have multiple platformIO project open in your workspace and want to change between them.
 
 9. **Plug Icon:** Change the port that your board is connected.
+
 
 
 </details>
