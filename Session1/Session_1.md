@@ -59,6 +59,7 @@ for the first project we're going to control a simple LED. these are the compone
 -----------
 
 simple image for connecting the led to arduino
+
 ![LED_Project](./.res/LED_Projcet.png)
 
 * connect the anode of the led (positive, longer leg of led) to resistor and connect the resistor to one of the arduino Digital pin (13).

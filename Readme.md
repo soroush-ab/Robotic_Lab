@@ -21,6 +21,10 @@ Welcome to this repository! This collection of resources and materials was creat
 ## Sessions
 ------------
 * #### [Session 1](./Session1/Session_1.md)
+    * Introduced the concept of robots and their various use cases
+    * Explored essential tools for robotics
+    * Discussed Arduino as an open-source microcontroller platform, ideal for beginners
+    * build your first arduino project.
 
 
 * #### [Utils](./Utils/Readme.md)
