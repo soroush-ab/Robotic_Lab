@@ -20,6 +20,12 @@ Welcome to this repository! This collection of resources and materials was creat
 
 ## Sessions
 ------------
+* #### [Session 1](./Session1/Session_1.md)
+
+
+* #### [Utils](./Utils/Readme.md)
+    - the installation guides and problems
+    - Arduino cheat sheet
 
 
 ## Contents
