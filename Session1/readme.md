@@ -170,4 +170,4 @@ void loop(){
 
 ```
 
-to compile and upload your code follow [this](../Utils/util.md#how-to#) instruction.
+to compile and upload your code follow [this](../Utils/readme.md#how-to) instruction.

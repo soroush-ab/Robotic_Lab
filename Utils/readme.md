@@ -91,7 +91,7 @@
 ### Problems
 
 * **I've download and installed python but it says that there is no python installed what should i do?**
-    - if your on windows add the pyhton path to path environment variables (for help visit this [link](https://www.geeksforgeeks.org/how-to-add-python-to-windows-path/))
+    - if your on windows add the pyhton path to path environment variables (for more help visit this [link](https://www.geeksforgeeks.org/how-to-add-python-to-windows-path/))
 
     - if you're using linux just install 
     python3-venv with this command :
