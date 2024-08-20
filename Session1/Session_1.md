@@ -67,7 +67,7 @@ simple image for connecting the led to arduino
 
 **CODE**
 --------
-if you just want to run go to here.
+if you want complete code go [here](#complete-code).
 
 ```ARDUINO
 #include <Arduino.h>
@@ -169,3 +169,5 @@ void loop(){
 }
 
 ```
+
+to compile and upload your code follow [this](../Utils/util.md#how-to#) instruction.
