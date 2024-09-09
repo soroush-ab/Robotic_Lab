@@ -125,3 +125,31 @@
         ```sh
         sudo chmod 777 /path/to/port
         ```
+
+## Arduino CheatSheet
+
+### Pin Operations
+
+* **Pin Mode:** determine the mode of which you want to use specific pin.
+    + `pinMode(pinNum, Mode);`
+        - Modes:
+            - `INPUT`: use the pin as input.
+            - `OUTPUT`: use the pin as output.
+
+* **Write on pin:** write the values to control the pins.
+    + **As Digital:** write on pin as digital signal (only 1 or 0);
+        - `digitalWrite(pinNum, value)`
+            - **values**
+                `HIGH` or `1`: pin would be active (in Arduino the voltage of pin would be 5v and in ESP32 would be 3.3v for other boards check the DataSheet of the board).
+
+                `LOW` or `0`: pins would be inactive (for all the boards would be 0v **ALSO** known as ground)
+                
+    + **As Analog:** write on pins as analog:
+        - **Warning!** you can not write on all pins as analog for arduino you can write analog signal on pins with `~` sign on other boards you'l have to read data sheet or search on the web.
+
+        - `analogWrite(pinNum, value)`
+
+            - **values**
+                the value is usually between 0 and 255 (8bit number) which determines the duty cycle of PWM ([What Is PWM]()) signal on specific pin.
+
+### 
