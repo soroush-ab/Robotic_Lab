@@ -1,5 +1,17 @@
 **Session 1: Introduction to Robotics and Arduino**
-=============================================
+===================================================
+
+## Session Requirements
+
+hardware        | amount (per group)
+--------        | ------
+Arduino uno **or** ESP32     | 1
+wire to program the boards   | 1
+LED             | 1
+1k ohm resistor | 1
+bread board     | 1
+jumper wire     | 2 (at least)
+
 
 ### What is a Robot?
 
