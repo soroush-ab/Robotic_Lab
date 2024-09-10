@@ -47,6 +47,7 @@ When it comes to building robots, you need a "brain" to control and coordinate t
 
 
 for now We're going to focus on using **Arduino** as our primary microcontroller platform.
+you can use **ESP32** if you want to, just be aware of the differences between these two boards.
 
 **What is Arduino?**
 -------------------
