@@ -150,6 +150,6 @@
         - `analogWrite(pinNum, value)`
 
             - **values**
-                the value is usually between 0 and 255 (8bit number) which determines the duty cycle of PWM ([What Is PWM]()) signal on specific pin.
+                the value is usually between 0 and 255 (8bit number) which determines the duty cycle of PWM ([What Is PWM](../Session2/readme.md#what-is-pulse-width-modulation-pwm)) signal on specific pin.
 
 ### 

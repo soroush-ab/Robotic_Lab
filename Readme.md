@@ -25,6 +25,13 @@ Welcome to this repository! This collection of resources and materials was creat
     * Explored essential tools for robotics
     * Discussed Arduino as an open-source microcontroller platform, ideal for beginners
     * build your first arduino project.
+    
+* #### [Session 2](./Session2/readme.md)
+    * Introduction to some types of motors and how they work.
+
+    * how to control these motors.
+
+    * useful drivers to run and control these motors.
 
 
 * #### [Utils](./Utils/readme.md)

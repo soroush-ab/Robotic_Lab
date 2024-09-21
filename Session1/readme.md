@@ -3,14 +3,14 @@
 
 ## Session Requirements
 
-hardware        | amount (per group)
---------        | ------
-Arduino uno **or** ESP32     | 1
-wire to program the boards   | 1
-LED             | 1
-1k ohm resistor | 1
-bread board     | 1
-jumper wire     | 2 (at least)
+| hardware                    | amount (per group) |
+| ----------------------------| ------------------ |
+| Arduino uno **or** ESP32    | 1                  |
+| wire to program the boards  | 1                  |
+| LED                         | 1                  |
+| 1k ohm resistor             | 1                  |
+| bread board                 | 1                  |
+| jumper wire                 | 2 (at least)       |
 
 
 ### What is a Robot?
@@ -73,7 +73,11 @@ for the first project we're going to control a simple LED. these are the compone
 
 simple image for connecting the led to arduino
 
+<div style="text-align: center;">
+
 ![LED_Project](./.res/LED_Projcet.png)
+
+</div>
 
 * connect the anode of the led (positive, longer leg of led) to resistor and connect the resistor to one of the arduino Digital pin (13).
 * connect the cathode (negative, shorter leg of led) to GND  of arduino.
