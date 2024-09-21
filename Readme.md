@@ -28,9 +28,7 @@ Welcome to this repository! This collection of resources and materials was creat
     
 * #### [Session 2](./Session2/readme.md)
     * Introduction to some types of motors and how they work.
-
     * how to control these motors.
-
     * useful drivers to run and control these motors.
 
 
