@@ -131,4 +131,55 @@ $$ DutyCycle = (val \times 100)/255 $$
 
 </div>
 
-> TODO show PWM on oscilloscope
+<details>
+<summary>Show PWM signal on Oscilloscope</summary>
+
+**If You don't know how to work with Oscilloscope and what is it in general watch [this video](https://www.youtube.com/watch?v=DgYGRtkd9Vs).**
+
+to show the pwm signal on oscilloscope connect the tip of the probe (positive part of the probe) to the pwm pin of your board then connect the scope ground (negative part of the probe) to ground of your board `GND`.
+
+</div>
+
+<div style="text-align: center;">
+
+<br />![PWM oscilloscope](./.res/PWM_oscilloscope.png)
+
+</div>
+
+## Code
+
+now to show the pwm signal we must write a simple code.
+
+```ARDUINO
+#include <Arduino.h>
+
+void setup(){
+    // leave empty.
+    // you don't need to set the pwm pin as output because the analogWrite function do that as well.
+}
+
+void loop(){
+
+    for (int i=0; i<255; i+=5){
+        analogWrite(3,i);
+        delay(100);
+    }
+
+    for (int i=255; i>0; i-=5){
+        analogWrite(3,i);
+        delay(100);
+    }
+}
+```
+
+after uploading the code to the board you should see something like this on the Oscilloscope:
+
+</div>
+
+<div style="text-align: center;">
+
+<br />![PWM oscilloscope](./.res/PWM_oscilloscope.gif)
+
+</div>
+
+</details>
